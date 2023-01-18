@@ -1,8 +1,8 @@
 // tailwind.config.js
 module.exports = {
-  purge: ["./public/index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  purge: ['./public/index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   darkMode: false,
-  separator: "__", // 兼容小程序，将 : 替换成 __
+  separator: '__', // 兼容小程序，将 : 替换成 __
   theme: {
     // 兼容小程序，将默认配置里带 .和/ 清除
     // 如果有些属性你没有用到，请在 corePlugins 里禁用
